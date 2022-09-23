@@ -9,7 +9,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* Описание стилей для блока header */
+  /* Описание стилей для блока header */
 .header {
   height: 100vh;
   min-height: 600px;
@@ -250,7 +250,7 @@
   position: relative;
 }
 
-.section-title_theme_derk {
+.section-title_theme_dark {
   line-height: 1.15;
   font-size: 60px;
   font-style: 600;
@@ -261,7 +261,7 @@
 
 }
 
-.section-subtitle_theme_derk {
+.section-subtitle_theme_dark {
   line-height: 34px;
   font-size: 24px;
   font-style: normal;
@@ -271,7 +271,7 @@
   margin-bottom: 0;
 }
 
-.table_theme_derk {
+.table_theme_dark {
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
@@ -280,12 +280,14 @@
   z-index: 1;
 }
 
-.table__cell_theme_derk {
+.table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
+  color: white;
+  margin-right: 0;
 }
 
-.table__heading_theme_derk {
+.table__heading_theme_dark {
   line-height: 1.15px;
   font-size: 24px;
   font-style: 600;
@@ -293,7 +295,7 @@
   margin-bottom: 20px;
 }
 
-.table__text_theme_derk {
+.table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-style: normal;
