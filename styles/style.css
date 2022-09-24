@@ -324,7 +324,6 @@
 
 .footer__columns {
   display: flex;
-  justify-content: center;
   width: 90%;
   margin-left: 0;
   margin-right: 0;
