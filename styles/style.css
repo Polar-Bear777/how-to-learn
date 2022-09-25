@@ -32,7 +32,6 @@
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
-  margin-left: 64px;
   align-self: center;
   margin: 0 0 0 64px;
   z-index: 2;
@@ -215,7 +214,7 @@
   color: #2f80ed;
   position: absolute;
   right: 48px;
-  top: 445px;
+  top: 50%;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -337,6 +336,7 @@
 
 .footer__column_content_copyright {
   align-items: flex-start;
+  justify-content: space-between;
   flex-basis: 711px;
   margin: 0;
 }
@@ -344,10 +344,11 @@
 .logo_place_footer {
   margin-top: 0;
   margin-right: 0;
+  display: flex;
 }
 
 .footer__column_content_social {
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: flex-start;
 }
 
@@ -391,6 +392,6 @@
 
 .footer__column_content_info {
   justify-content: flex-start;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
