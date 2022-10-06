@@ -1,0 +1,9 @@
+.resources__link {
+    color: #2f80ed;
+}
+
+.resources__link:hover {
+    color: rgb(161, 4, 4);
+    transition: color .5s linear;
+    opacity: .7;
+}
