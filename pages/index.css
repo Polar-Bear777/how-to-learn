@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 /* Между блоками отсутп=3 пробела, а между содержимым блока отступ=1 пробел (для наглядности) */
 
 /* Импортировал основные блоки */
@@ -13,6 +14,7 @@
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/cards/cards.css);
 
 
 
@@ -25,35 +27,31 @@
 @import url(../blocks/header/__title/header__title.css);
 
 /* Импортировал элемент_модификатор блока [logo] */
-@import url(../сommon/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
 
 /* Импортировал кейфрейм для блока [header__square-pic] */
-@import url(../rotation/rotation.css);
+@import url(../blocks/rotation/rotation.css);
 
 
 
 /*DESCRIPTION*/
 /* Импортировал блок [two-columns] для секции description */
-@import url(../сommon/two-columns/two-columns.css);
+@import url(../blocks/two-columns/two-columns.css);
 
 /* Импортировал элементы блока [two-columns] */
-@import url(../сommon/two-columns/__brief/two-columns__brief.css);
-@import url(../сommon/two-columns/__main-text/two-columns__main-text.css);
-@import url(../сommon/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../сommon/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 
 
 /*TECHNIQUES*/
-/* Импортировал блок [cards] для секции techniques */
-@import url(../blocks/techniques/cards/cards.css);
-
 /* Импортировал элементы блока [cards] */
-@import url(../blocks/techniques/cards/);
-@import url(../blocks/techniques/cards/__description/cards__description.css);
-@import url(../blocks/techniques/cards/__image/cards__image.css);
-@import url(../blocks/techniques/cards/__item/cards__item.css);
-@import url(../blocks/techniques/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title/cards__title.css);
 
 
 
@@ -80,14 +78,14 @@
 
 /*DIGITS*/
 /* Импортировал блоки [section-subtitle, section-title, table] для секции digits */
-@import url(../сommon/section-subtitle/section-subtitle.css);
-@import url(../сommon/section-title/section-title.css);
-@import url(../сommon/table/table.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/table/table.css);
 
 /* Импортировал элементы блока [table] */
-@import url(../сommon/table/__cell/table__cell.css);
-@import url(../сommon/table/__heading/table__heading.css);
-@import url(../сommon/table/__text/table__text.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
 
 
 
@@ -101,7 +99,7 @@
 @import url(../blocks/khan/__quote-author-subline.css/khan__quote-author-subline.css);
 @import url(../blocks/khan/__quote-author.css/khan__quote-author.css);
 @import url(../blocks/khan/__quote/khan__quote.css);
-@import url(../blocks/khan/__title/khan__title.css); 
+@import url(../blocks/khan/__title/khan__title.css);
 
 
 
@@ -110,16 +108,16 @@
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 /* Импортировал элементы_модификаторы блока [table] */
-@import url(../сommon/table/_theme/table_theme_dark.css);
-@import url(../сommon/table/__text/_theme/table__text_theme_dark.css);
-@import url(../сommon/table/__heading/_theme/table__heading_theme_dark.css);
-@import url(../сommon/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 
 /* Импортировал элемент_модификатор блока [section-title] */
-@import url(../сommon/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 
 /* Импортировалиэлемент_модификатор блока [section-subtitle] */
-@import url(../сommon/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
 
 
@@ -147,4 +145,4 @@
 @import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 
 /* Импортировал элемент_модификатор блока [logo] */
-@import url(../сommon/logo/_place/logo_place_footer.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
